@@ -1,10 +1,10 @@
-package com.JasonMac.JavaLibrary;
+package com.Jason.MovieLibrary;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaLibraryApplicationTests {
+class MovieLibraryApplicationTests {
 
 	@Test
 	void contextLoads() {
