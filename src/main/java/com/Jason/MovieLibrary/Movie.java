@@ -3,6 +3,7 @@ package com.Jason.MovieLibrary;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -24,4 +25,6 @@ public class Movie {
   private String poster;
   private List<String> genres;
   private List<String> backdrops;
+  @DocumentReference
+  private List<Review> reviewIds;
 }
