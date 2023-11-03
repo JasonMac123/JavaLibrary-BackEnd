@@ -1,13 +1,13 @@
-package com.JasonMac.JavaLibrary;
+package com.Jason.MovieLibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JavaLibraryApplication {
+public class MovieLibraryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JavaLibraryApplication.class, args);
+		SpringApplication.run(MovieLibraryApplication.class, args);
 	}
 
 }
